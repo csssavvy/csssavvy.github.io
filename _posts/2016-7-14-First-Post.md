@@ -11,3 +11,18 @@ Among other things expect to find:
 * HTML5 & CSS3 basics
 * SCSS/SASS basics 
 * Heavily opinionated preferences for IDE's
+
+``` scss
+.block {
+  display: block;
+  position: relative;
+  
+  &__element {
+    display: inline-block;
+  }
+  
+  &--modifier {
+    color: fff;
+  }
+}
+```
