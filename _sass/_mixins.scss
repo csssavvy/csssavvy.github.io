@@ -1,0 +1,23 @@
+@mixin link-colors($link, $visit, $hover, $active, $underline) {
+  color: $link;
+  outline: none;
+  
+  &:visited {
+    color: $visit;
+  }
+  
+  &:hover {
+    color: $hover;
+  }
+  
+  &:active {
+    color: $hover;
+  }
+  
+  @if $underline {
+    &:hover, 
+    &:active {
+      text-decoration: underline;
+    }
+  }
+}

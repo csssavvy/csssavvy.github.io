@@ -5,16 +5,23 @@
 
 // Colors
 $blue: #4183C4;
+$alizarin: #e31d1a;
 
 // Grays
 $black: #000;
-$darkerGray: #222;
+$catskill: #f5f8fa;
+$mineshaft: #262626;
 $darkGray: #333;
 $gray: #666;
 $lightGray: #eee;
 $white: #fff;
 
+// Links
+$blacklink: $black $black $black $black true;
+$redlink: $alizarin $alizarin $alizarin $alizarin true;
+
 // Font stacks
+$opensans: "Open Sans", sans-serif;
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;

@@ -1,0 +1,97 @@
+.page-container {
+  display: block;
+  position: relative;
+}
+
+
+
+
+
+.page-head {
+  border-top: 5px solid red;
+  border-bottom: 5px solid transparent;
+  padding: 24px 0;
+}
+
+
+
+
+
+.o-wrapper {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+
+
+
+
+.site-nav {
+  svg {
+    height: 3em;
+    width: auto;
+  }
+  
+  &__list {
+    margin: 0;
+    padding: 0;
+    float: right;
+    display: inline-block;
+    list-style: none;
+  }
+  
+  &__item {
+    margin-left: 1em;
+    
+    a {
+      @include link-colors($blacklink...);
+    }
+  }
+}
+
+
+
+
+
+/**
+ * SVG version of the site logo
+ */
+.c-logo {
+  fill: #262626;
+  
+  &__head {
+    fill: $alizarin;
+  }
+}
+
+
+
+
+
+.post {
+  &__date {
+    font-size: 0.75em;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+  }
+  
+  &__title {
+    a {
+      @include link-colors($redlink...);
+    }
+  }
+  
+  p {
+    code {
+      padding: 0.2em;
+      margin: 0;
+      font-size: 0.85em;
+      border-radius: 3px;
+      background-color: rgba(0,0,0,0.04);
+    }
+  }
+}
