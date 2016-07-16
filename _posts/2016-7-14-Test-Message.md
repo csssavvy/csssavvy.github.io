@@ -1,6 +1,7 @@
 ---
 layout: post
 title: test article
+published: false
 ---
 
 If you can read this, this test was succesful. That means that in effect, I'm really happy.
