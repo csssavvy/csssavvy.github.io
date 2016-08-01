@@ -1,6 +1,7 @@
 ---
 layout: post
 title: BEM Basics
+comments: true
 ---
 
 Being recently new to the wondrous world that is web development I think I was a little bit overwhelmed when I just started out. Beside the basic stuff I knew, there were so many tools, plugins and processors available to simplify my work that I didn't know where to begin.
