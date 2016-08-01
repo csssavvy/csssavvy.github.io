@@ -31,7 +31,7 @@ Since this is a relatively abstract discription I've written a small example to 
 
 Consider this markup:
 
-``` html
+```
 <div class='block block--modifier'>
 	<span class='element element--modifier'></span>
 	<span class='element'></span>
@@ -40,7 +40,7 @@ Consider this markup:
 
 We could write this SCSS for it:
 
-``` scss
+```
 /**
  * Block description
  */

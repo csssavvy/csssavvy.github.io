@@ -1,6 +1,7 @@
 
 .highlight {
-  background-color: #efefef;
+  background-color: #2f2f2f;
+  color: #B1B1B1;
   padding: 7px 7px 7px 10px;
   border: 1px solid #ddd;
   -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
@@ -17,7 +18,7 @@ code {
 .highlight .c { color: #586E75 } /* Comment */
 .highlight .err { color: #93A1A1 } /* Error */
 .highlight .g { color: #93A1A1 } /* Generic */
-.highlight .k { color: #859900 } /* Keyword */
+.highlight .k { color: #E44025 } /* Keyword */
 .highlight .l { color: #93A1A1 } /* Literal */
 .highlight .n { color: #93A1A1 } /* Name */
 .highlight .o { color: #859900 } /* Operator */
@@ -47,23 +48,23 @@ code {
 .highlight .m { color: #2AA198 } /* Literal.Number */
 .highlight .s { color: #2AA198 } /* Literal.String */
 .highlight .na { color: #93A1A1 } /* Name.Attribute */
-.highlight .nb { color: #B58900 } /* Name.Builtin */
-.highlight .nc { color: #268BD2 } /* Name.Class */
+.highlight .nb { color: #CDA93C } /* Name.Builtin */
+.highlight .nc { color: #CDA93C } /* Name.Class */
 .highlight .no { color: #CB4B16 } /* Name.Constant */
 .highlight .nd { color: #268BD2 } /* Name.Decorator */
 .highlight .ni { color: #CB4B16 } /* Name.Entity */
 .highlight .ne { color: #CB4B16 } /* Name.Exception */
 .highlight .nf { color: #268BD2 } /* Name.Function */
-.highlight .nl { color: #93A1A1 } /* Name.Label */
+.highlight .nl { color: #b1b1b1 } /* Name.Label */
 .highlight .nn { color: #93A1A1 } /* Name.Namespace */
 .highlight .nx { color: #555 } /* Name.Other */
 .highlight .py { color: #93A1A1 } /* Name.Property */
-.highlight .nt { color: #268BD2 } /* Name.Tag */
+.highlight .nt { color: #CDA93C } /* Name.Tag */
 .highlight .nv { color: #268BD2 } /* Name.Variable */
 .highlight .ow { color: #859900 } /* Operator.Word */
 .highlight .w { color: #93A1A1 } /* Text.Whitespace */
 .highlight .mf { color: #2AA198 } /* Literal.Number.Float */
-.highlight .mh { color: #2AA198 } /* Literal.Number.Hex */
+.highlight .mh { color: #7DB5CA } /* Literal.Number.Hex */
 .highlight .mi { color: #2AA198 } /* Literal.Number.Integer */
 .highlight .mo { color: #2AA198 } /* Literal.Number.Oct */
 .highlight .sb { color: #586E75 } /* Literal.String.Backtick */
